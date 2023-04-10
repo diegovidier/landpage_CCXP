@@ -146,3 +146,7 @@ footer{
         color: #F3C61F ;
         cursor: pointer;
     }
+
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey;
+}
