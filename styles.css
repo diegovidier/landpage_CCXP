@@ -150,3 +150,27 @@ footer{
 .card-highlight{
     box-shadow: 10px 10px 10px 10px grey;
 }
+
+.card-selected{
+    border: 5px solid green;    
+}
+
+section div{
+    margin-left: 230px;
+    width: 1400px;
+    background-color: #F3C61F;
+
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: #ffffff;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+
+}

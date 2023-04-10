@@ -63,29 +63,33 @@
 
             <div id="f1">
                 <div class="ingresso">
-                    <img src="assets/images/qui.svg" id="quinta" alt="" onmouseover="highlight('quinta')" onmouseout="highlight('quinta')">
+                    <img src="assets/images/qui.svg" id="quinta" alt="" onclick="selectCard('#quinta')" onmouseover="highlight('quinta')" onmouseout="highlight('quinta')">
                 </div>
                 <div class="ingresso">
-                    <img src="assets/images/sex.svg" id="sexta" alt="" onmouseover="highlight('sexta')" onmouseout="highlight('sexta')">
+                    <img src="assets/images/sex.svg" id="sexta" alt="" onclick="selectCard('#sexta')" onmouseover="highlight('sexta')" onmouseout="highlight('sexta')">
                 </div>
                 <div class="ingresso">
-                    <img src="assets/images/sab.svg" id="sabado" alt="" onmouseover="highlight('sabado')" onmouseout="highlight('sabado')">
+                    <img src="assets/images/sab.svg" id="sabado" alt="" onclick="selectCard('#sabado')" onmouseover="highlight('sabado')" onmouseout="highlight('sabado')">
                 </div>
                 <div class="ingresso">
-                    <img src="assets/images/dom.svg" class="card-ingresso"  id="domingo" alt="" onmouseover="highlight('domingo')" onmouseout="highlight('domingo')">
+                    <img src="assets/images/dom.svg" class="card-ingresso"  id="domingo" alt="" onclick="selectCard('#domingo')" onmouseover="highlight('domingo')" onmouseout="highlight('domingo')">
                 </div>
             </div>
         
 
             <div id="f2">
-                <button>GARANTA O SEU!</button>
+                <button onclick="showSelectedCards()">GARANTA O SEU!</button>
             </div>
-
         </div>
-
     </footer>
-
-    </footer>
+    <section>
+        <div>
+                <form action="https://google.com">
+                    <input type="email" placeholder="Seu email" required />
+                    <input type="submit" />
+                </form>
+        </div>
+    </section>
 
     <script src="script.js"></script>
     <script src="main.js"></script>
